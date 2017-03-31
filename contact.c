@@ -46,6 +46,7 @@ void init(Pcon pcon) //初始化
 	pcon->size = 0;
 	load_data(pcon);
 }
+
 void check_capacity(Pcon pcon) //检查是否需要扩容
 {
 	if (pcon->size == pcon->capacity)
@@ -62,6 +63,7 @@ void check_capacity(Pcon pcon) //检查是否需要扩容
 		pcon->peoinfo = tmp;
 	}
 }
+
 int find_name(Pcon pcon, const char *name)
 {
 	int i = 0;
@@ -72,6 +74,7 @@ int find_name(Pcon pcon, const char *name)
 	}
 	return -1;
 }
+
 void add_person(Pcon pcon)
 {
 	check_capacity(pcon);
