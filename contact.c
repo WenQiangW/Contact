@@ -31,6 +31,7 @@ void save_data(Pcon pcon)//保存数据到文件中
 	}
 	fclose(pfwrite);
 }
+
 void init(Pcon pcon) //初始化
 {
 	pcon->peoinfo = (PeoInfo *)malloc(sizeof(PeoInfo)*INIT_NUM);
