@@ -23,11 +23,12 @@ typedef struct PeoInfo
 	char addr[MAX_ADDR];
 }PeoInfo;
 
+
 typedef struct Contact
 {
 	struct PeoInfo *peoinfo;
-	int size;//实际个数
-	int capacity;//容量
+	int size;//脢碌录脢赂枚脢媒
+	int capacity;//脠脻脕驴
 }Contact ,*Pcon;
 
 void init(Pcon pcon);
