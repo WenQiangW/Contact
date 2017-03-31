@@ -16,6 +16,7 @@ void load_data(Pcon pcon) //从文件中读取
 	}
 	fclose(pfread);
 }
+
 void save_data(Pcon pcon)//保存数据到文件中
 {
 	int i = 0;
